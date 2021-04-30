@@ -25,13 +25,13 @@ int parse_int(char*);
  */
 
 int countingValleys(int steps, char* path) {
-	int i, v, old_elev;
+	int v, old_elev;
 	int elev = 0;
 
-	for (i=0;i < steps;i++){
+	for (;*path;path++){
 		old_elev = elev;
 
-		switch(path[i]){
+		switch(*path){
 		case 'U': elev++; break;
 		case 'D': elev--; break;
 		}
