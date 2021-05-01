@@ -1,1 +1,1 @@
-Solutions to problems found on [HackerRank](https://www.hackerrank.com) using C.
+Solutions to problems found on [HackerRank](https://www.hackerrank.com) using C and python.
